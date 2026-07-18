@@ -1,7 +1,7 @@
 
 import gradio as gr
 import requests
-API_URL = "http://127.0.0.1:8000/analyze"
+API_URL = "https://nlp-back-1.onrender.com"
 def analyze(description):
     response = requests.post(
         API_URL,
